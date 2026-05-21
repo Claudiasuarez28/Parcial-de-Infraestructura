@@ -280,7 +280,7 @@ resource "aws_db_instance" "postgres" {
   allocated_storage = 20
 
   db_name  = "appdb"
-  username = "admin"
+  username = "appadmin"
   password = "Admin12345!"
 
   skip_final_snapshot = true
