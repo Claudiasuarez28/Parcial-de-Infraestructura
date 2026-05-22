@@ -7,7 +7,7 @@ export const options = {
 };
 
 export default function () {
-  let res = http.get('http://app-load-balancer-1643519133.us-east-1.elb.amazonaws.com/health');
+  let res = http.get('http://app-load-balancer-2101982842.us-east-1.elb.amazonaws.com/health');
 
   check(res, {
     'status es 200': (r) => r.status === 200,

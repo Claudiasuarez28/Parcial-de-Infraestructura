@@ -8,9 +8,8 @@ yum install -y nodejs git
 
 cd /home/ec2-user
 
-git clone https://github.com/Claudiasuarez28/Parcual-de-Infraestructura.git
-
-cd Parcual-de-Infraestructura/app
+git clone https://github.com/Claudiasuarez28/Parcial-de-Infraestructura.git
+cd Parcial-de-Infraestructura/app
 
 npm install
 
